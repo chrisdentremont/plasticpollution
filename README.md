@@ -12,7 +12,7 @@ This data has 3 important features:
 2. Year
 3. Amount of plastic (weighed in million tonnes)
 
-This gives us a total amount of plastic that is produced by the year, and we are able to compare this data with our second dataset that involves individual countries.
+This gives us a total amount of plastic that is produced by the year, and we are able to compare this data with our second and third datasets that involve individual countries and people. To be able to do this, we will be using the row indicating the year 2010.
 
 Data Preview:
 
@@ -24,7 +24,7 @@ This data has 3 important features:
 2. Year (will always be 2010 in this case)
 3. Amount of plastic per capita wasted per person per day (weighed in kg)
 
-This gives us individualistic data representing how much plastic is wasted per country. We can use this data in relation to our first dataset to start training our model in order to predict the amount of plastic that will be wasted per year for the next 20 years.
+This gives us individualistic data representing how much plastic is wasted per country. We can use this data in relation to our other two datasets to start training our model in order to predict the amount of plastic that will be wasted per year for the next 20 years.
 
 Data Preview:
 
