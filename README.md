@@ -4,7 +4,7 @@
 For this project, we wanted to examine the amount of plastic pollution that exists in our oceans, and be able to predict how large of an issue it will be in the future.
 
 ## Data Selection
-Our data training is conducted using a Jupyter notebook found here (will link notebook). Our objective is to predict the amount of global plastic wasted per year for the next 20 years, and evaluate how much of an issue it presents. All of the datasets presented below can be found on [Kaggle](https://www.kaggle.com/sohamgade/plastic-datasets/version/1?select=global-plastics-production.csv) [1]. Using these datasets, we will be examining plastic usage from the year 2010. Our data consists of three primary datasets:
+Our data training is conducted using a Jupyter notebook found here (will link notebook). Our objective is to create a machine learning model in which users can input hypothetical statistics representing population and waste, and get a result number representing the total percentage of wasted plastic. All of the datasets presented below can be found on [Kaggle](https://www.kaggle.com/sohamgade/plastic-datasets/version/1?select=global-plastics-production.csv) [1]. Using these datasets, we will be examining plastic usage from the year 2010. Our data consists of four primary datasets:
 
 ### Total Global Plastic Production
 This data has 3 important features:
@@ -24,7 +24,7 @@ This data has 3 important features:
 2. Year (will always be 2010 in this case)
 3. Amount of plastic per capita wasted per person per day (weighed in kg)
 
-This gives us individualistic data representing how much plastic is wasted per country. We can use this data in relation to our other two datasets to start training our model in order to predict the amount of plastic that will be wasted per year for the next 20 years.
+This gives us individualistic data representing how much plastic is wasted per country. We can use this data in relation to our other two datasets to start training our model in order to predict the amount of plastic that will be wasted with given parameters.
 
 Data Preview:
 
@@ -36,11 +36,20 @@ This data has 3 important features:
 2. Year (will always be 2010 in this case)
 3. Percentage of mismanaged plastic waste for each country in the year 2010
 
-This data allows us to give us a sense of how much plastic is mismanaged in each country as a whole, as opposed to individual people. This will help us determine how much plastic is wasted in the next 20 years, and just how much each country contributes to this waste.
+This data allows us to give us a sense of how much plastic is mismanaged in each country as a whole, as opposed to individual people. This will help us determine how much plastic is wasted with given parameters.
 
 Data Preview
 
 ![third data screenshot](./globalmismanagedwaste.png)
+
+### Global Population For Each Country
+This data has 1 important feature that we will be using - the population for each country.
+
+The population data will give us an idea of how many people are in each country to be wasting plastic, so that our linear regression model can take this into account when predicting the plastic waste with given parameters.
+
+Data Preview
+
+![fourth data screenshot](./globalpopulation.png)
 
 ## Methods
 
