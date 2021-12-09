@@ -16,7 +16,7 @@ This gives us a total amount of plastic that is produced by the year, and we are
 
 Data Preview:
 
-![data screenshot](./totalplastic.png)
+![data screenshot](images/totalplastic.png)
 
 ### Plastic Wasted Per Capita
 This data has 3 important features:
@@ -28,7 +28,7 @@ This gives us individualistic data representing how much plastic is wasted per c
 
 Data Preview:
 
-![second data screenshot](./plasticpercapita.png)
+![second data screenshot](images/plasticpercapita.png)
 
 ### Global Mismanaged Plastic Waste
 This data has 3 important features:
@@ -40,7 +40,7 @@ This data allows us to give us a sense of how much plastic is mismanaged in each
 
 Data Preview
 
-![third data screenshot](./globalmismanagedwaste.png)
+![third data screenshot](images/globalmismanagedwaste.png)
 
 ### Global Population For Each Country
 This data has 1 important feature that we will be using - the population for each country.
@@ -49,7 +49,7 @@ The population data will give us an idea of how many people are in each country 
 
 Data Preview
 
-![fourth data screenshot](./globalpopulation.png)
+![fourth data screenshot](images/globalpopulation.png)
 
 ## Methods
 
