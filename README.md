@@ -52,8 +52,23 @@ Data Preview
 ![fourth data screenshot](images/globalpopulation.png)
 
 ## Methods
+### Tools that were used:
+- Numpy, Pandas, and Scikit-learn for data preparation and analysis
+- Flask and nginx for web app deployment
+- GitHub for reporting & demonstration
+- VSCode with live server for web app development
+
+### Scikit:
+- Used multiple linear regression function to predict value given several defined values
 
 ## Results
+Our prediction web application is live [here](https://dain.cafe/pollutionproj/). Users are able to input 3 features to predict how much plastic waste a theoretical country would contribute:
+- Amount of plastic produced (million tonnes)
+- Amount of plastic per capita wasted per person per day (weighed in kg)
+- Population of theoretical country
+
+![web app screenshot](images/webapp.jpg)
+
 
 ## Discussion
 
