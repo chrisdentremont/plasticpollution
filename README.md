@@ -1,7 +1,7 @@
 # Global Plastic Pollution Prediction
 
 ## Introduction
-For this project, we wanted to examine the amount of plastic pollution that exists in our oceans, and be able to predict how large of an issue it will be in the future.
+For this project, we wanted to examine the amount of plastic pollution that exists in our oceans, and be able to predict how large of an issue it will be in the future. To try and answer this, we worked to develop a [web application](https://dain.cafe/pollutionproj/) that allows you to input values for a theoretical country to see if the waste contribution would be a problem for the future.
 
 ## Data Selection
 Our data training is conducted using a Jupyter notebook found here (will link notebook). Our objective is to create a machine learning model in which users can input hypothetical statistics representing population and waste, and get a result number representing the total percentage of wasted plastic. All of the datasets presented below can be found on [Kaggle](https://www.kaggle.com/sohamgade/plastic-datasets/version/1?select=global-plastics-production.csv) [1]. Using these datasets, we will be examining plastic usage from the year 2010. Our data consists of four primary datasets:
@@ -69,10 +69,18 @@ Our prediction web application is live [here](https://dain.cafe/pollutionproj/).
 
 ![web app screenshot](images/webapp.jpg)
 
+The output value is a percentage of plastic waste that the theoretical country contributes to the world.
+
 
 ## Discussion
+Since we were able to create an application where you can predict the global waste contribution, it's now possible to be able to see how much of a problem it could be in the future. By inputting what we think the population would be in the future along with how much plastic we think each person will waste and total plastic production based on previous data, we are able to come to this conclusion.
+
+For example, the current U.S. population is 329,500,000. If around 400,000,000 million tonnes of plastic is generated in the year and a person in the U.S. wastes 0.335 kg of plastic per day, we can predict that the U.S. contributes to 4.11% of global plastic waste.
+
+Our next step in this project would be to create a model that is able to predict these 3 features based on previous data. Once these features are able to be predicted, we can then predict the plastic waste contribution for a country in the next *x* years.
 
 ## Summary
+Finding datasets that stated the population, total plastic production, and plastic wasted per person allowed us to create a machine learning model that is able to predict the percentage of plastic waste that a country would contribute. There are perspectives for future research using this information, including being able to predict the 3 features that allow us to predict the waste contribution.
 
 ## References
 [1] [Plastic pollution datasets](https://www.kaggle.com/sohamgade/plastic-datasets/version/1?select=global-plastics-production.csv) (Kaggle)
