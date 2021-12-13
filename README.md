@@ -18,7 +18,7 @@ Data Preview:
 
 ![data screenshot](images/totalplastic.png)
 
-### Plastic Wasted Per Capita
+### Plastic Wasted Per Person Per Day
 This data has 3 important features:
 1. Entity (country)
 2. Year (will always be 2010 in this case)
