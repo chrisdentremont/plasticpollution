@@ -62,12 +62,12 @@ Data Preview
 - Used multiple linear regression function to predict value given several defined values
 
 ## Results
-Our prediction web application is live [here](https://dain.cafe/pollutionproj/). Users are able to input 3 features to predict how much plastic waste a theoretical country would contribute:
+Our prediction web application is live [here](https://plastic-pollution-predictor.herokuapp.com/). Users are able to input 3 features to predict how much plastic waste a theoretical country would contribute:
 - Amount of plastic produced (million tonnes)
 - Amount of plastic per capita wasted per person per day (weighed in kg)
 - Population of theoretical country
 
-![web app screenshot](images/webapp.jpg)
+![web app screenshot](images/plasticpollutionwebsite.jpg)
 
 The output value is a percentage of plastic waste that the theoretical country contributes to the world.
 
