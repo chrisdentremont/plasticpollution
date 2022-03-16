@@ -54,7 +54,7 @@ Data Preview
 ## Methods
 ### Tools that were used:
 - Numpy, Pandas, and Scikit-learn for data preparation and analysis
-- Flask and nginx for web app deployment
+- Flask and Heroku for web app deployment
 - GitHub for reporting & demonstration
 - VSCode with live server for web app development
 
@@ -77,7 +77,7 @@ Since we were able to create an application where you can predict the global was
 
 For example, the current U.S. population is 329,500,000. If around 400,000,000 million tonnes of plastic is generated in the year and a person in the U.S. wastes 0.335 kg of plastic per day, we can predict that the U.S. contributes to 4.11% of global plastic waste.
 
-Our next step in this project would be to create a model that is able to predict these 3 features based on previous data. Once these features are able to be predicted, we can then predict the plastic waste contribution for a country in the next *x* years.
+Our next step in this project would be to create a model that is able to predict these 3 features based on previous data. Once these features are able to be predicted, we can then predict the plastic waste contribution for a theoretical country.
 
 ## Summary
 Finding datasets that stated the population, total plastic production, and plastic wasted per person allowed us to create a machine learning model that is able to predict the percentage of plastic waste that a country would contribute. There are perspectives for future research using this information, including being able to predict the 3 features that allow us to predict the waste contribution.
