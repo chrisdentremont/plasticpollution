@@ -1,7 +1,7 @@
 # Global Plastic Pollution Prediction
 
 ## Introduction
-For this project, we wanted to examine the amount of plastic pollution that exists in our oceans, and be able to predict how large of an issue it will be in the future. To try and answer this, we worked to develop a [web application](https://plastic-pollution-predictor.herokuapp.com/) that allows you to input values for a theoretical country to see if the waste contribution would be a problem for the future.
+For this project, we wanted to examine the amount of plastic pollution that exists in our oceans, and be able to predict how large of an issue it will be in the future. To try and answer this, we worked to develop a web application that allows you to input values for a theoretical country to see if the waste contribution would be a problem for the future.
 
 ## Data Selection
 Our data training is conducted using a [Jupyter notebook](./GlobalPlasticPollution.ipynb). Our objective is to create a machine learning model in which users can input hypothetical statistics representing population and waste, and get a result number representing the total percentage of wasted plastic. All of the datasets presented below can be found on [Kaggle](https://www.kaggle.com/sohamgade/plastic-datasets/version/1?select=global-plastics-production.csv) [1]. Using these datasets, we will be examining plastic usage from the year 2010. Our data consists of four primary datasets:
