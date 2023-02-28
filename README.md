@@ -87,5 +87,5 @@ Finding datasets that stated the population, total plastic production, and plast
 
 ## Contributors
 - Chris D'Entremont
-- Gabriel Madeira
 - Dain Im
+- Gabriel Madeira
